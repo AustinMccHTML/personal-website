@@ -4,3 +4,38 @@ body {
     line-height: 1.5; /* Adjust the line height as needed */
     color: #333; /* Set the default text color */
 }
+
+/*-----------NAV--------------*/
+header {
+    background-color: #0156b0; /* Blue background color */
+    padding: 0;
+    margin: 0;
+
+}
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    display: inline-block
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #02254b; /* Darker blue on hover */
+}
