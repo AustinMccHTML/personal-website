@@ -19,16 +19,22 @@ section {
 img {
     max-width: 150px; /* Adjust the maximum width of the images as needed */
     height: auto;
-    border-radius: 5px; /* Optional: Add a border-radius to the images for a rounded look */
+    border-radius: 10px; /* Optional: Add a border-radius to the images for a rounded look */
 }
+/* Add a border on hover for images within anchor tags */
+a:hover img {
+    border: 5px solid #ebeff3; /* You can customize the border style here */
+  }
+  
 
 .flex-container {
     display: flex;
     align-items: center;
+    max-width: 1000px;
 }
 
 .content {
-    margin-left: 20px; /* Adjust the margin between the image and content */
+    margin-left: 30px; /* Adjust the margin between the image and content */
 }
 
 ul {
