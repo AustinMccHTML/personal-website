@@ -16,25 +16,3 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
-
-// Image Hover
-document.addEventListener('DOMContentLoaded', function() {
-    var image = document.getElementById('hoverImage');
-  
-    image.addEventListener('mouseover', function() {
-      addBorder(image);
-    });
-  
-    image.addEventListener('mouseout', function() {
-      removeBorder(image);
-    });
-  
-    function addBorder(element) {
-      element.classList.add('image-hover-border');
-    }
-  
-    function removeBorder(element) {
-      element.classList.remove('image-hover-border');
-    }
-  });
-  
