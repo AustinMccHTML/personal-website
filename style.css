@@ -1,16 +1,28 @@
 body {
-    font-family: 'Avenir', sans-serif;
-    font-size: 16px; /* Adjust the font size as needed */
-    line-height: 1.5; /* Adjust the line height as needed */
-    color: #333; /* Set the default text color */
+    font-family: 'Avenir', sans-serif; /* Replace with your preferred font */
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
-/*-----------NAV--------------*/
+h2 {
+    color: #0156b0; /* Accent color for section headings */
+}
+
+section {
+    margin-bottom: 20px;
+    margin: 20px;
+}
+/*---------------NAV------------------*/
+
 header {
     background-color: #0156b0; /* Blue background color */
     padding: 0;
     margin: 0;
-
+    height: 80px;
+    line-height: 40px;
 }
 nav {
     text-align: center;

@@ -11,6 +11,10 @@ h2 {
     color: #0156b0; /* Accent color for section headings */
 }
 
+h3{
+    font-size: 150%;
+}
+
 section {
     margin-bottom: 20px;
     margin: 20px;
@@ -73,7 +77,8 @@ header {
     background-color: #0156b0; /* Blue background color */
     padding: 0;
     margin: 0;
-
+    height: 80px;
+    line-height: 40px;
 }
 nav {
     text-align: center;
@@ -101,5 +106,61 @@ nav a {
 
 nav a:hover {
     background-color: #02254b; /* Darker blue on hover */
+}
+
+
+/* -----------MOBILE FRIENDLY SECTION--------------------*/
+/* Media Query for smaller screens and future iterations */
+
+/* Existing Media Query */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        height: auto;
+        line-height: 1.5;
+    }
+
+    nav li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    img {
+        max-width: 100px;
+    }
+
+    /* New adjustments to move images above h3 titles */
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .flex-container img {
+        margin: 0; /* Remove margin to the right of the images */
+        margin-bottom: 10px; /* Add some space between image and h3 title */
+    }
+
+    /* Keep li left-aligned */
+    .flex-container .content ul {
+        text-align: left;
+    }
+
+    .content {
+        margin-left: 5px;
+    }
+
+    /* Center h3 titles */
+    h3 {
+        text-align: center;
+    }
 }
 
