@@ -1,3 +1,35 @@
+/* Existing styles for other parts of your site */
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ddd; /* Slight grey border */
+    padding: 20px; /* Adjust padding as needed */
+    margin: 20px auto; /* Center the box horizontally */
+    max-width: 1000px; /* Set a maximum width if needed */
+}
+
+/* Maintain the existing styles for sections within the box */
+.resume-container section {
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 10px; /* Adjust margin as needed */
+}
+
+/* Center h1 in the resume section */
+#resume h1 {
+    text-align: center;
+}
+
+/* Styles for the download button */
+.download-button {
+    margin-top: 15px; /* Add some space between the text and the button */
+}
+
+/* Continue with your existing styles */
+
+
 body {
     font-family: 'Avenir', sans-serif; /* Replace with your preferred font */
     font-size: 16px;
